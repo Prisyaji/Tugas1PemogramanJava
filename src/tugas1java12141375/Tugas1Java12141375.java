@@ -20,3 +20,12 @@ public class Tugas1Java12141375 {
             }
         System.out.println();
         }
+       // Bentuk Segitiga Siku Kiri Bawah      
+        System.out.print("Bentuk Segitiga siku Kiri Bawah");
+        for(int c=0;c<=jumlah;c++) {
+            for(int d=0; d<c; d++) {
+                System.out.print("*");
+            }
+        System.out.println();
+        }
+        
