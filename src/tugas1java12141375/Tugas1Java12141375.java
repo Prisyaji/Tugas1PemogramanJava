@@ -51,4 +51,16 @@ public class Tugas1Java12141375 {
         System.out.println();
         }
         System.out.println();
-        
+        // Bentuk Segitiga Sama Kaki  
+        System.out.println("Bentuk Segitiga Sama Kaki");
+        for(int a=0; a<=jumlah; a++) {
+            for (int m=1; m<=jumlah-a; m++) {
+                System.out.print (" ");
+            }
+            for (int m=1; m<2*a; m++) {
+                System.out.print ("*");
+            }
+        System.out.println (" ");
+        }
+    }
+}
