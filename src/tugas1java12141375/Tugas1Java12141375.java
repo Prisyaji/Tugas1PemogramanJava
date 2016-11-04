@@ -28,4 +28,15 @@ public class Tugas1Java12141375 {
             }
         System.out.println();
         }
+        // Bentuk Segitiga Siku Kanan Atas 
+        System.out.println("Bentuk Segitiga siku Kanan Atas");
+        for(int a=0; a<jumlah; a++) {
+            for(int k=0; k<a; k++) {
+                System.out.print(" ");
+            }
+            for(int b=0; b<(jumlah-a); b++) {
+                System.out.print("*");
+            }
+        System.out.println();
+        }
         
